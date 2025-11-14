@@ -3,6 +3,7 @@
     "concurrently": "^8.2.2"
   },
   "scripts": {
-    "start": "concurrently \"cd frontent && npm start\" \"cd backend && nodemon index\""
+    "start": "concurrently \"cd frontent && npm start\" \"cd backend && node index\""
   }
+
 }
